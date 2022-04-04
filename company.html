@@ -63,7 +63,7 @@
 <ul>
     <li><span class="color-check">アダルトゲーム</span>　開発開始</li>
 </ul>    
-<h1>2013年</h1>
+<h1>2013</h1>
 <ul>
 <li>創業 初代社長<span class="color-check">上野周吉</span>が就任</li>    
 </ul>
@@ -102,7 +102,7 @@ htmlソースが見える状態にしてmetaタグを変更しましょう。</p
 <p>現状<br>
 <span class="look">&lt;h1 id=&quot;logo&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;<span class="color-check">SAMPLE 株式会社</span>&lt;/a&gt;&lt;/h1&gt;</span></p>
 <p>置き換え後（※logo.pngという画像をimagesフォルダに入れた場合の例）<br>
-<span class="look">&lt;h1 id=&quot;logo&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;<span class="color-check">&lt;img src=&quot;images/logo.png&quot; alt=&quot;SAMPLE株式会社&quot;&gt;</span>&lt;/a&gt;&lt;/h1&gt;</span></p>
+<span class="look">&lt;h1 id=&quot;logo&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;<span class="color-check">&lt;img src=&quot;logo.png&quot; alt=&quot;SAMPLE株式会社&quot;&gt;</span>&lt;/a&gt;&lt;/h1&gt;</span></p>
 <p>画像に置き換えた場合の画像幅は、cssフォルダのstyle.cssの、<br>
 <span class="look">header #logo img {</span><br>
 の中にあるwidthの値で変更できます。</p>
@@ -117,20 +117,20 @@ htmlソースが見える状態にしてmetaタグを変更しましょう。</p
 html側に既存のタグをコピペするだけでOKです。<br>
 例えば「4.jpg」という画像をスライドショーに１枚追加したい場合、現状では、<br>
 <span class="look">&lt;div class=&quot;mainimg&quot;&gt;<br>
-&lt;div&gt;&lt;img src=&quot;images/1.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;<br>
-&lt;div&gt;&lt;img src=&quot;images/2.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;<br>
-&lt;div&gt;&lt;img src=&quot;images/3.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;<br>
+&lt;div&gt;&lt;img src=&quot;1.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;<br>
+&lt;div&gt;&lt;img src=&quot;2.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;<br>
+&lt;div&gt;&lt;img src=&quot;3.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;<br>
 &lt;/div&gt;</span><br>
 ですが、これに１行加えるだけです。<br>
 <span class="look">&lt;div class=&quot;mainimg&quot;&gt;<br>
-&lt;div&gt;&lt;img src=&quot;images/1.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;<br>
-&lt;div&gt;&lt;img src=&quot;images/2.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;<br>
-&lt;div&gt;&lt;img src=&quot;images/3.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;<br>
-<span class="color-check">&lt;div&gt;&lt;img src=&quot;images/4.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;</span><br>
+&lt;div&gt;&lt;img src=&quot;1.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;<br>
+&lt;div&gt;&lt;img src=&quot;2.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;<br>
+&lt;div&gt;&lt;img src=&quot;3.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;<br>
+<span class="color-check">&lt;div&gt;&lt;img src=&quot;4.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;</span><br>
 &lt;/div&gt;</span></p>
 <p><strong class="color-theme">画像ごとにリンクも設定できます</strong><br>
 通常の画像へのリンク設定と同じやり方でOKです。<br>
-<span class="look">&lt;div&gt;<span class="color-check">&lt;a href=&quot;index.html&quot;</span>&gt;&lt;img src=&quot;images/1.jpg&quot; alt=&quot;&quot;&gt;<span class="color-check">&lt;/a&gt;</span>&lt;/div&gt;</span><br>
+<span class="look">&lt;div&gt;<span class="color-check">&lt;a href=&quot;index.html&quot;</span>&gt;&lt;img src=&quot;1.jpg&quot; alt=&quot;&quot;&gt;<span class="color-check">&lt;/a&gt;</span>&lt;/div&gt;</span><br>
 </p>
 <p><strong class="color-theme">slickを使う為に必要なタグ、ファイル類。</strong><br>
 1. html下部にある、「jQueryファイルの読み込み」のタグ。※下のjsファイルより先に読み込んで下さい。<br>
@@ -169,11 +169,11 @@ cssの解説は、「<span class="color1">/*</span>」と「<span class="color1"
 
 <footer>
 <ul class="icon">
-<li><a href="#"><img src="images/icon_facebook.png" alt="Facebook"></a></li>
-<li><a href="#"><img src="images/icon_twitter.png" alt="Twitter"></a></li>
-<li><a href="#"><img src="images/icon_instagram.png" alt="Instagram"></a></li>
-<li><a href="#"><img src="images/icon_youtube.png" alt="YouTube"></a></li>
-<li><a href="#"><img src="images/icon_line.png" alt="LINE"></a></li>
+<li><a href="#"><img src="icon_facebook.png" alt="Facebook"></a></li>
+<li><a href="#"><img src="icon_twitter.png" alt="Twitter"></a></li>
+<li><a href="#"><img src="icon_instagram.png" alt="Instagram"></a></li>
+<li><a href="#"><img src="icon_youtube.png" alt="YouTube"></a></li>
+<li><a href="#"><img src="icon_line.png" alt="LINE"></a></li>
 </ul>
 <small>Copyright&copy; <a href="index.html">Sample Company</a> All Rights Reserved.</small>
 <span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
